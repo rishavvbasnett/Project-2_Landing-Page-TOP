@@ -12,6 +12,14 @@ body {
     display: flex;
     align-items: baseline;
     justify-content: space-between;
+
+}
+
+.singha_logo {
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    align-self: baseline;
 }
 
 .topline p {
@@ -28,21 +36,22 @@ ul, a {
 
     display: flex;
     flex-direction: row;
-    gap: 16px;
+    gap: 30px;
+    justify-content: space-evenly;
     list-style-type: none;
     text-decoration: none;
 }
 
 .second_line {
     display: flex;
-    gap: 45px;
     justify-content: space-between;
+    align-items: center;
 }
 
 .left_part {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 27px;
     align-items: flex-start;
 
 }
@@ -52,9 +61,16 @@ ul, a {
     height: 220px;
 }
 
+.right_part{
+    border-color: #939393;
+    width: 380px;
+    height: 290px;
+    border-radius: 5px;
+}
+
 .left_part .hero_big_text {
     color: #F9FAF8;
-    font-size: 48px;
+    font-size: 37px;
     font-weight: 900;
 }
 
@@ -79,8 +95,6 @@ ul, a {
 
     display: flex;
     flex-direction: column;
-    gap: 32px;
-    padding-bottom: 66px;
 }
 /* side padding, and alignment section */
 
@@ -118,7 +132,7 @@ ul, a {
 }
  
 span {
-    font-size: 24px;
+    font-size: 21px;
     font-weight: bold;
 }
 
@@ -140,9 +154,70 @@ span {
     color: #1F2937;
 }
 
+.body3 {
+    background-color: #3882F6;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border-radius: 5px;
 
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
 
-.header, .body1, .body2 {
+.left_side {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.small_button {
+    background-color: #3882F6;
+    border-radius: 5px;
+    border-color: #e5e7eb;
+
+    border-style:solid;
+    color: #e5e7eb;
+    border-radius: 5px;
+    padding: 5px 16px
+}
+
+.small_heading {
+    color: #e5e7eb;
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.small_txt {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #e5e7eb;
+    font-size: 16px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+}
+
+ .body1, .body2 {
     padding-left: 120px;
     padding-right: 120px;
+}
+
+.header {
+    padding-left: 130px;
+    padding-right: 110px;
+
 }
